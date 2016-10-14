@@ -5,8 +5,8 @@
     <title>My First Express App</title>
   </head>
   <body>
-    <h1>
-      Hello world, if that is your real name...
-    </h1>
+    <% names.forEach(function(name) { %>
+      <h2>Hello, <%= name %></h2>
+    <% }) %>
   </body>
 </html>
